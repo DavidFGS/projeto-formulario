@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 600px;
+    height: 810px;
+    background-color: rgba(255, 255, 255, 70%);
+    border-radius: 20px;
+}
+
+fieldset {
+    text-align: left;
+    font-family: Arial;
+    font-size: 1.1rem;
+    border: none;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.labelsex {
+    margin-bottom: 0;
+}
+
+.checkbox {
+    text-align: center;
+    font-weight: normal;
+    color: #000;
+}
+
+.line {
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    padding: 5px;
+    background-color: transparent;
+    border-bottom: 2px solid #999;
+    width: 100%;
+}
+
+.line:hover {
+    border-bottom: 2px solid #7fffd4;
+}
+
+.description {
+    width: 100%;
+    height: 80px;
+    outline: 0;
+    resize: none;
+}
+
+#button {
+    text-align: center;
+}
+
+.buttonclass {
+    text-align: center;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #7fffd4;
+}
+
+.buttonclass:hover {
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000;
+}
+
+p a {
+    color: #000;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.term {
+    color: #000;
+    text-decoration: none;
+}
+
+.term:hover {
+    text-decoration: underline;
+}

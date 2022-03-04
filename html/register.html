@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <form action="../html/successfulRegistration.html" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <h1 style="text-align: center; margin-bottom: 20px;">Cadastro de Desenvolvedores</h1>
+
+                <label>
+                    Nome Completo: 
+                    <input type="text" name="completname" class="line" required minlength="2">
+                </label>
+                
+
+                <label>
+                    Data de Nascimento: 
+                    <input type="date" name="birthdate" class="line" required>
+                </label>
+                
+
+                
+                <label class="labelsex">Sexo: </label>
+                <input type="radio" name="sex" value="Masculine" > Masculino
+                <input type="radio" name="sex" value="Feminine" > Feminino
+                
+                
+
+                <label style="margin-top: 20px;">
+                    E-mail: 
+                    <input type="email" name="email" class="line" required>
+                </label>
+                
+
+                <label>
+                    Senha: 
+                    <input type="password" name="password" class="line" required minlength="4">
+                </label>
+                
+
+                <label>
+                    Confirmar Senha: 
+                    <input type="password" name="confirmpassword" class="line" required minlength="4">
+                </label>
+                
+
+                <label>
+                    Qual sua área de estudos: 
+                    <select name="area" class="line">
+                        <option value="none" selected>Selecione uma opção</option>
+                        <option value="front">Front-End</option>
+                        <option value="back">Back-End</option>
+                        <option value="full">Full-stack</option>
+                    </select>
+                </label>
+                
+
+                <label>
+                    Fale sobre suas habilidades (Soft e hard skills): <br>
+                    <textarea name="report" class="description"></textarea>
+                </label>
+                
+
+                <label class="checkbox" >
+                    <input type="checkbox" class="check" name="term" value="I accept" required> Eu declaro que li e aceito os <a href="termosdeuso.com" class="term">termos de uso.</a>
+                </label>
+                
+                <div id="button">
+                <button style="margin-top: 1px;" class="buttonclass">Enviar Dados</button>
+                </div>
+                <p>Já tem um cadastro? <a href="../html/login.html">Clique aqui</a></p>
+            </fieldset>  
+            </form>
+        </div>
+    </div>
+</body>
+</html>
