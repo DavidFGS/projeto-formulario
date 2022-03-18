@@ -50,3 +50,7 @@ h1 {
 .buttonclass:hover {
     font-size: 25px;
 }
+
+h1 {
+    text-shadow: 2px 3px 4px #7fffd4;
+}

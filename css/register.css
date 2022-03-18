@@ -114,3 +114,7 @@ p a:hover {
 .term:hover {
     text-decoration: underline;
 }
+
+h1 {
+    text-shadow: 2px 3px 4px #7fffd4;
+}
