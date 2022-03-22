@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 body {
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
